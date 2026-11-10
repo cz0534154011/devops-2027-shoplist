@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Service                  # which resource gives a stable address?
 metadata:
-  name: postgers                # the backend uses this name in DB_HOST. The name is the address
+  name: postgres                # the backend uses this name in DB_HOST. The name is the address
   namespace: shoplist
 spec:
   selector:
